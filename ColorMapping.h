@@ -1,5 +1,5 @@
-#ifndef TELCO_COLORMAPPING_HPP_
-#define TELCO_COLORMAPPING_HPP_
+#ifndef TELCO_COLORMAPPING_H_
+#define TELCO_COLORMAPPING_H_
 
 #include <string>
 
