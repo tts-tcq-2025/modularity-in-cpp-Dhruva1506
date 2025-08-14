@@ -1,16 +1,20 @@
 #include <fstream>
 #include <iostream>
-#include "ColorManual.h"
+#include "manual.h"
 
 void RunAllTests();
 
 int main() {
-  RunAllTests();
-  std::cout << "\n";
-  TelCoColorCoder::PrintReferenceManual(std::cout);
+    RunAllTests();
 
-  // Optional: also write to a file for printing
-  std::ofstream f("color_code_manual.txt");
-  f << TelCoColorCoder::FormatReferenceManual();
-  return 0;
+    std::ofstream file("color_code_manual.txt");
+    if (!file) {
+        std::cerr << "Error: Could not create output file 'color_code_manual.txt'\n";
+        return 1; // Exit with error code
+    }
+
+    file << TelCoColorCoder::FormatReferenceManual();
+    file.close();
+
+    return 0;
 }
