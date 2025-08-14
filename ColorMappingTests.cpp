@@ -1,6 +1,6 @@
 #include <cassert>
 #include <iostream>
-#include "colorcoder.h"
+#include "ColorMapping.h"
 
 using namespace TelCoColorCoder;
 
