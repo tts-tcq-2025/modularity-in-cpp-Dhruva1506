@@ -1,6 +1,6 @@
 #include <fstream>
 #include <iostream>
-#include "manual.h"
+#include "ColorManual.h"
 
 void RunAllTests();
 
