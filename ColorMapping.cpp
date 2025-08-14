@@ -1,4 +1,4 @@
-#include "colorcoder.h"
+#include "ColorMapping.h"
 #include <string>
 
 namespace TelCoColorCoder {
