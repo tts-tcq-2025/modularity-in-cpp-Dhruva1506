@@ -1,6 +1,6 @@
 #include <fstream>
 #include <iostream>
-#include "manual.hpp"
+#include "manual.h"
 
 void RunAllTests();
 
