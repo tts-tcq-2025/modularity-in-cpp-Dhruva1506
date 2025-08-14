@@ -1,6 +1,6 @@
 #include <cassert>
 #include <iostream>
-#include "colorcoder.hpp"
+#include "colorcoder.h"
 
 using namespace TelCoColorCoder;
 
