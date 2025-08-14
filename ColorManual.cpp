@@ -1,5 +1,5 @@
-#include "manual.h"
-#include "colorcoder.h"
+#include "ColorManual.h"
+#include "ColorMapping.h"
 #include <ostream>
 #include <sstream>
 
